@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Add To Dishes"
+        android:textSize="25dp"
+        style="@style/styles" />
+    <TextView
+        android:id="@+id/dishName"
+        android:layout_width="226dp"
+        android:layout_height="37dp"
+        android:text="Dish Name:"
+        style="@style/styles"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        style="@style/styles"></EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Dish price:"
+        android:textSize="20dp"
+        style="@style/styles"/>
+    <EditText
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        style="@style/styles">
+    </EditText>
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Dish Image:"
+        style="@style/styles"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="87dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/logoaddphoto"></ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="ADD"
+        android:textSize="20dp">
+    </Button>
+</LinearLayout>

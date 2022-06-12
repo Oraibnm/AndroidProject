@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        style="@style/styles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Log In"
+        android:textSize="30dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/styles"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <EditText
+        style="@style/styles"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/styles"
+        android:text="Password"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <EditText
+        style="@style/styles"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"></EditText>
+
+    <Button
+        android:id="@+id/BtLogin"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/babygreen"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/BtRegister"
+        android:layout_width="117dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@color/babygreen"
+        android:text="Register" />
+
+</LinearLayout>
