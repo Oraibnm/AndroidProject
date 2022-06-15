@@ -7,12 +7,20 @@
         <entry key="..\:/AndroidProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
         <entry key="..\:/AndroidProject/app/src/main/res/drawable/ic_logo.xml" value="0.1165" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/Style.xml" value="0.10054347826086957" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_add_dish.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_add_drink.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_contact.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.21787709497206703" />
-        <entry key="..\:/AndroidProject/app/src/main/res/layout/add_dishes.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/add_dishes.xml" value="0.14666666666666667" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/add_drinks.xml" value="0.22" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/add_menu.xml" value="0.22" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/log_in.xml" value="0.22" />
-        <entry key="..\:/AndroidProject/app/src/main/res/layout/register.xml" value="0.129981884057971" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/network_security_config.xml" value="0.1046875" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/page_home.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/register.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/xml.xml" value="0.13095238095238096" />
+        <entry key="..\:/AndroidProject/app/src/main/res/xml/network_security_config.xml" value="0.10778985507246377" />
       </map>
     </option>
   </component>

@@ -3,15 +3,29 @@ package com.example.androidproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class AddDrink extends AppCompatActivity {
     private EditText edtName, edtPrice, edtSize;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_drink);
+        setContentView(R.layout.add_drinks);
         edtName= findViewById(R.id.edtName);
         edtPrice=findViewById(R.id.edtPrice);
         edtSize= findViewById(R.id.edtSize);
@@ -28,8 +42,5 @@ public class AddDrink extends AppCompatActivity {
         //addDish();
 
     }
-    private void addDish(){
-        String url = "http://10.0.2.2:84/rest/addbook_json.php";
 
-    }
 }

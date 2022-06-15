@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+
+android:padding="8dp"
+tools:context=".AddDish"
+    >
+
+<TextView
+    android:id="@+id/tvNewDish"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add New Dish"
+    android:textSize="24sp" />
+
+<EditText
+    android:id="@+id/edtName"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/back"
-    android:layout_margin="30dp"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:ems="10"
+    android:hint="Name"
+    />
+
+<EditText
+    android:id="@+id/edtPrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:ems="10"
+    android:hint="Price"
+
+    />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:text="Add To Dishes"
-        android:textSize="25dp"
-        style="@style/styles" />
-    <TextView
-        android:id="@+id/dishName"
-        android:layout_width="226dp"
-        android:layout_height="37dp"
-        android:text="Dish Name:"
-        style="@style/styles"
-        android:textSize="20dp" />
-    <EditText
-        android:layout_width="223dp"
-        android:layout_height="wrap_content"
-        style="@style/styles"></EditText>
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:text="Dish price:"
-        android:textSize="20dp"
-        style="@style/styles"/>
-    <EditText
-        android:layout_width="226dp"
-        android:layout_height="wrap_content"
-        style="@style/styles">
-    </EditText>
-    <TextView
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:text="Dish Image:"
-        style="@style/styles"
-        android:textSize="20dp" />
-    <ImageView
-        android:layout_width="118dp"
-        android:layout_height="87dp"
-        android:layout_margin="20dp"
-        android:background="@drawable/logoaddphoto"></ImageView>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@color/black"
-        android:text="ADD"
+        android:text="@string/uploadimg"
+        android:layout_margin="5dp"
+        android:ems="10"
         android:textSize="20dp">
-    </Button>
-</LinearLayout>
+    </TextView>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logoaddphoto"
+    >
+
+</ImageView>
+    <Button
+    android:id="@+id/btnAdd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="BTaddDish"
+    android:text="Add Drink"
+    android:layout_gravity="center"
+    />
+</androidx.appcompat.widget.LinearLayoutCompat>
